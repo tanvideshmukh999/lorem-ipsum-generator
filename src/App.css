@@ -1,10 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightcyan;
+}
 .App {
+  margin-top: 20px;
   text-align: center;
+  background-color: lightcyan;
+  color:darkgreen;
+}
+
+.generatepara{
+  padding:25px;
+}
+.generatepara span{
+  font-size: 30px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+button{
+  padding:10px 20px;
+  background-color: darkcyan;
+  color:white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border:2px solid darkcyan;
+}
+input{
+  padding:10px;
+  margin:0px 20px;
+  border:2px solid black;
+  outline: none;
+  width: 100px;
+  border-radius: 5px;
+
+
+}
+.para{
+  width: 70%;
+  padding:20px;
+  border-radius: 10px;
+  border: 2px solid darkcyan;
+  margin:20px;
+}
+.paraContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
